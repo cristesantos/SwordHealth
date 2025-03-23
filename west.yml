@@ -1,0 +1,11 @@
+manifest:
+  version: 0.11
+  remotes:
+    - name: zephyrproject
+      url-base: https://github.com/zephyrproject-rtos
+  projects:
+    - name: zephyr
+      path: zephyr
+      revision: main
+  self:
+    path: SwordHealth
