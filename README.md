@@ -19,9 +19,17 @@ SwordHealth/
 ├── west.yml
 └── .gitignore
 
+# Zephyr Hello World with BMI270
 
-## Prerequisites
-Follow the instructions at https://docs.zephyrproject.org/latest/develop/getting_started/index.html to prepare the environment
+This application integrates the BMI270 IMU sensor to read accelerometer, gyroscope, and step count data. Outputs are displayed on the console every second.
+
+## HW Prerequisites
+
+- BMI270 sensor connected to your board via I2C.
+- Board with I2C support and Zephyr installed as per the [Zephyr Getting Started Guide](https://docs.zephyrproject.org/latest/develop/getting_started/index.html).
+
+## FW Prerequisites
+Follow the instructions at https://docs.zephyrproject.org/latest/develop/getting_started/index.html to set the environment
 
 - **OS**: Linux, macOS, or Windows with WSL
 - **Toolchain**: Zephyr SDK (instructions (https://docs.zephyrproject.org/latest/develop/toolchains/zephyr_sdk.html#toolchain-zephyr-sdk-install))
